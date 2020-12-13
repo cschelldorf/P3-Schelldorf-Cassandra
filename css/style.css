@@ -1,0 +1,186 @@
+/*-- Universal CSS --*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Merriweather-Regular', sans-serif;
+  color: #333333;
+}
+
+p{
+  line-height: 25px;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*--Images CSS --*/
+img upperleft{
+  margin: 25px;
+}
+
+img bottomright {
+  position: relative;
+  margin-left: 705px;
+}
+
+/*Font CSS--*/
+@font-face {
+  font-family: 'Merriweather-Regular';
+  src: url('../fonts/Merriweather/Merriweather-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MerriweatherSans-Light';
+  src: url('../fonts/Merriweather_Sans/static/MerriweatherSans-Light.ttf') format('truetype');
+}
+
+/*-- Navigation CSS --*/
+
+nav{
+  font-size: 12px;
+  position: fixed;
+  padding: 5px;
+  background: white;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+nav a{
+  text-decoration: none;
+  padding: 5px;
+}
+
+nav ul li{
+  display: inline;
+}
+
+ul {
+  border-bottom: 1px solid #e7e7e7;
+  width: 100%;
+}
+
+/* Change the link color to #F075AC (dark pink) on hover */
+li a:hover {
+  color: #F075AC;
+}
+
+/*-- Body CSS --*/
+body{
+  background: white;
+}
+
+.container{
+  text-align: left;
+  padding: 5px;
+}
+.container h1 {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.container p{
+  color: #797979;
+  padding-left: 10px;
+}
+
+/*--Home--*/
+img#cass-circle {
+    position: absolute;
+    margin-top: 125px;
+    margin-left: -100px;
+}
+
+.intro {
+    float: right;
+    margin-right: 120px;
+    margin-top: -75px;
+}
+
+
+/*--Contact Form--*/
+form.contact_form{
+  background: #F8B3D0;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 7px;
+  color: white;
+  font-family: merriweather-sans;
+  font-size: 12px;
+  margin: 20px auto;
+  text-align: left;
+  overflow: hidden;
+  height: auto;
+}
+
+.label_input_wrap{
+  display: inline-block;
+  padding: 5px;
+}
+
+label{
+  font-weight: bold;
+}
+
+.name.input-section {
+  line-height: 25px;
+}
+
+.company.input-section {
+  line-height: 25px;
+}
+
+.email.input-section {
+  line-height: 25px;
+}
+
+.telephone.input-section {
+  line-height: 25px;
+}
+
+.service.input-section {
+  line-height: 25px;
+}
+
+select#service {
+    color: #797979;
+}
+
+.comments.input-section {
+  line-height: 25px;
+}
+
+textarea#comments {
+    line-height: 20px;
+}
+
+input[type="submit"] {
+    color: white;
+    background: #F075AC;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+}
+
+/*--Footer--*/
+
+footer{
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 12px;
+  color: #333333;
+  border-top: 1px solid #e7e7e7;
+  width: 100%;
+}
+
+footer img{
+  width: 15px;
+}
+
+container.social a img{
+  padding: 3px;
+  color: #333333;
+}
