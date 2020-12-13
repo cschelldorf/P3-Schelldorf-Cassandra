@@ -4,6 +4,7 @@
   padding: 0;
   border: 0;
   font-family: 'Merriweather-Regular', sans-serif;
+  font-size: 20px;
   color: #333333;
 }
 
@@ -17,13 +18,16 @@ html, body {
 }
 
 /*--Images CSS --*/
-img upperleft{
-  margin: 25px;
+img.upperleft{
+  position: relative;
+  margin-left: 13px;
+  margin-top: 45px;
 }
 
-img bottomright {
-  position: relative;
-  margin-left: 705px;
+img.bottomright {
+    position: relative;
+    float: right;
+    margin-right: 13px;
 }
 
 /*Font CSS--*/
@@ -40,7 +44,7 @@ img bottomright {
 /*-- Navigation CSS --*/
 
 nav{
-  font-size: 12px;
+  font-size: 20px;
   position: fixed;
   padding: 5px;
   background: white;
@@ -55,7 +59,12 @@ nav a{
 }
 
 /* selected link */
-a:active {
+nav a:active {
+  color: #0000FF;
+}
+
+/* Current/active navbar link */
+.active {
   color: #0000FF;
 }
 
@@ -74,7 +83,7 @@ li a:hover {
 }
 
 /*-- custom styling for specific icons --*/
-.fa-caret-up {
+.fas fa-caret-up {
  color: #F075AC;
 }
 
@@ -105,11 +114,16 @@ img#cass-circle {
 }
 
 .intro {
-    float: right;
-    margin-right: 120px;
-    margin-top: -75px;
+    position: relative;
+    left: 450px;
+    bottom: 55px;
 }
 
+img.bottomright {
+  position: fixed;
+  right: 15px;
+  top: 395px;
+}
 
 /*--Contact Form--*/
 form.contact_form{
@@ -180,17 +194,19 @@ input[type="submit"] {
 footer{
   padding: 10px 25px;
   text-align: center;
-  font-size: 12px;
+  font-size: 16px;
   color: #333333;
   border-top: 1px solid #e7e7e7;
   width: 100%;
+  position: absolute;
+  background: white;
+  display: block;
+  margin-top: 275px;
+  bottom: 0px;
 }
 
-footer img{
-  width: 15px;
-}
-
-container.social a img{
-  padding: 3px;
+footer a{
   color: #333333;
+  padding: 3px;
+  font-size: 30px;
 }
