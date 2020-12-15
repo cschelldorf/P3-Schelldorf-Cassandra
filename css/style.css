@@ -9,25 +9,13 @@
 }
 
 p{
-  line-height: 25px;
+  line-height: 42px;
+  font-size: 25px;
 }
 
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
-
-/*--Images CSS --*/
-img.upperleft{
-  position: relative;
-  margin-left: 13px;
-  margin-top: 45px;
-}
-
-img.bottomright {
-    position: relative;
-    float: right;
-    margin-right: 13px;
 }
 
 /*Font CSS--*/
@@ -60,16 +48,26 @@ nav a{
 
 /* selected link */
 nav a:active {
-  color: #0000FF;
+  color: #F075AC;
 }
 
 /* Current/active navbar link */
 .active {
-  color: #0000FF;
+  color: #F075AC;
 }
 
 nav ul li{
   display: inline;
+}
+
+nav li svg{
+  display: block !important;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
 }
 
 ul {
@@ -77,53 +75,100 @@ ul {
   width: 100%;
 }
 
+li svg path{
+  fill: #F8B3D0;
+}
+
+
 /* Change the link color to #F075AC (dark pink) on hover */
 li a:hover {
   color: #F075AC;
 }
 
-/*-- custom styling for specific icons --*/
-.fas fa-caret-up {
- color: #F075AC;
+/*-- Body CSS --*/
+.home {
+    margin: auto;
+    max-width: 100%;
 }
 
-/*-- Body CSS --*/
 body{
   background: white;
 }
 
-.container{
-  text-align: left;
-  padding: 5px;
+img.upperleft{
+  position: relative;
+  margin-left: 13px;
+  margin-top: 45px;
+}
+
+img#cass-fullcolor{
+  float: left;
+  margin-top: 45px;
+}
+.container.welcome{
+  max-width: 1000px;
+  min-height: 350px;
+  margin: auto;
+  margin-left: 87px;
 }
 .container h1 {
     padding-top: 50px;
     padding-left: 10px;
 }
 
-.container p{
+.container.welcome p{
   color: #797979;
   padding-left: 10px;
 }
 
-/*--Home--*/
-img#cass-circle {
-    position: absolute;
-    margin-top: 125px;
-    margin-left: -100px;
+.intro {
+  padding-left: 45px;
+  max-width: 100%;
+  float: left;
+  margin-top: 125px;
 }
 
-.intro {
-    position: relative;
-    left: 450px;
-    bottom: 55px;
+.intro h1 {
+    font-size: 45px;
+    line-height: 80px;
 }
 
 img.bottomright {
-  position: fixed;
-  right: 15px;
-  top: 395px;
+  margin-left: 1100px;
 }
+
+.work-with-me {
+    border-radius: 5px;
+    background: #F075AC;
+    padding: 18px;
+    margin-left: 432px;
+    box-shadow: 10px 10px 10px -3px grey;
+    text-align: center;
+    margin-top: 81px;
+    max-width: 145px;
+}
+
+.work-with-me a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* hover link */
+.work-with-me :hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 11px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.work-with-me a{
+  text-decoration: none;
+  padding: 5px;
+}
+
 
 /*--Contact Form--*/
 form.contact_form{
@@ -198,10 +243,8 @@ footer{
   color: #333333;
   border-top: 1px solid #e7e7e7;
   width: 100%;
-  position: absolute;
   background: white;
   display: block;
-  margin-top: 275px;
   bottom: 0px;
 }
 
