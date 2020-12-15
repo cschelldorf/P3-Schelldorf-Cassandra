@@ -2,7 +2,7 @@
 
 <html lang="en">
   <head>
-    <title>About Me</title>
+    <title>Home</title>
 
     <meta charset="utf-8" />
 
@@ -11,16 +11,26 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
 
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/01cb8ecc71.js" crossorigin="anonymous"></script>
+
     <!--CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!--Favicon -->
+
+    <link rel="icon" type="image/ico" href="images/fav.ico"/>
+
+    <link rel="icon" type="image/ico" href="images/fav.png"/>
+
   </head>
 
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="https://www.cassandraschelldorf.com/index.html">Home</a></li>
-          <li><a href="https://www.cassandraschelldorf.com/aboutme.html">About Me</a></li>
+          <li><a href="https://www.cassandraschelldorf.com/index.html">Home</a><i class="fas fa-caret-up"></i></li>
+          <li><a class="active" href="https://www.cassandraschelldorf.com/aboutme.html">About Me</a><i class="fas fa-caret-up"></li>
           <li><a href="https://www.cassandraschelldorf.com/work.html">Work</a></li>
           <li><a href="https://www.cassandraschelldorf.com/contact.html">Contact Me</a></li>
         </ul>
@@ -28,14 +38,24 @@
     </header>
 
     <main>
-      <img src="images/upperleft.png" alt="Upper Left Pink Design" title="Upper Left Pink Design" width=223 x 243px />
+        <img src="images/upperleft.png" alt="Upper Left Pink Design" title="Upper Left Pink Design" width=223 height=243 />
+
       <img src="images/cass4.jpg" alt="Cassie Schelldorf Full Color" title="Cassie Schelldorf Full Color" />
       <h1>Get to know me:</h1>
       <p>I’ve always loved words and the art of a good story. When I was nine, I started my own neighborhood newspaper called “The Buzzing Times,” painstakingly typing out “articles” on my mom’s antique typewriter at our scratched kitchen table, erasing typos with a goopy whiteout brush, impatiently blowing on it so it dried faster. I interviewed all of our neighbors about the (sometimes non-existent) happenings on our small-town street. (Spoiler alert: I’m from a small farm town in Connecticut, there’s not a lot going on besides a missing cat and a runaway cow!). My brief foray into the world of newspapers lit something inside of me. I discovered how much I love talking to people and telling their stories. Whether it’s through words or design, my passion is breaking through the clutter and clearly communication messages succinctly…and with a little flair.
 
       Take a moment to check out the variety of work, it spans from logo and brand design to sales campaigns strategy. </p>
 
-      <img src="images/bottomright.png" alt="Bottom Right Pink Design" title="Bottom Right Pink Design" width=223 x 243px/>
+      <div class="clearfix"></div>
+
+      <div class="work-with-me">
+      <a href="https://www.cassandraschelldorf.com/work.html">See my work</a>
+      </div>
+    </div>
+
+      <div>
+        <img class="bottomright" src="images/bottomright.png" alt="Bottom Right Pink Design" title="Bottom Right Pink Design" width=223 height=243/>
+      </div>
 
       <div class="work with me">
         <input type="submit" value="Submit"/>
@@ -46,11 +66,11 @@
     <footer>
       <div class="social">
         <h3>Let's Connect:</h3>
-        <a href="mailto:cassie7@ufl.edu" target=_blank><img src="images/envelope-regular.svg" alt="Envelope" title="Envelope"/></a>
-        <a href="https://www.facebook.com/caschelldorf/" target=_blank><img src="images/facebook-square-brands.svg" alt="Facebook" title="Facebook"/></a>
-        <a href="https://www.instagram.com/withwingsandroots/?hl=en" target=_blank><img src="images/instagram-brands.svg" alt="Instagram" title="Instagram"/></a>
-        <a href="https://twitter.com/cschelldorf" target=_blank><img src="images/twitter-brands.svg" alt="Twitter" title="Twitter"/></a>
-        <a href="https://www.linkedin.com/in/cassandraanneschelldorf/" target=_blank><img src="images/linkedin-brands.svg" alt="LinkedIn" title="LinkedIn"/></a>
+        <a href="mailto:cassie7@ufl.edu" target=_blank><i class="far fa-envelope"></i></a>
+        <a href="https://www.facebook.com/caschelldorf/" target=_blank><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com/withwingsandroots/?hl=en" target=_blank><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/cschelldorf" target=_blank><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/cassandraanneschelldorf/" target=_blank><i class="fab fa-linkedin"></i></a>
       </div>
     </footer>
   </body>
