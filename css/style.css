@@ -152,6 +152,7 @@ img.bottomright {
     text-align: center;
     margin-top: 81px;
     max-width: 145px;
+    display: inline-block;
 }
 
 .work-with-me a{
