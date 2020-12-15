@@ -41,6 +41,11 @@ nav{
   z-index: 10;
 }
 
+nav li{
+  padding-left: 44px;
+  padding-right: 44px;
+}
+
 nav a{
   text-decoration: none;
   padding: 5px;
@@ -97,8 +102,8 @@ body{
 
 img.upperleft{
   position: relative;
-  margin-left: 13px;
-  margin-top: 45px;
+  margin-left: 9px;
+  margin-top: 63px;
 }
 
 img#cass-fullcolor{
@@ -134,7 +139,8 @@ img#cass-fullcolor{
 }
 
 img.bottomright {
-  margin-left: 1100px;
+  margin-left: 1120px;
+  margin-bottom: 4px;
 }
 
 .work-with-me {
