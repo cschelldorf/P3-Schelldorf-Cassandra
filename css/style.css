@@ -191,6 +191,7 @@ img#bottomright {
 
 .get-to-know-me h1 {
   font-size: 45px;
+  padding-bottom: 2px;
 }
 
 .get-to-know-me p {
@@ -202,7 +203,7 @@ img#bottomright {
 img#cass4 {
     float: left;
     padding-right: 26px;
-    margin-top: 40px;
+    margin-top: 10px;
     padding-bottom: 2px;
 }
 
