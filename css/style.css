@@ -8,6 +8,10 @@
   color: #333333;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 p{
   line-height: 42px;
   font-size: 25px;
@@ -139,7 +143,7 @@ img#cass-fullcolor{
 }
 
 img#bottomright {
-  margin-left: 1120px;
+  margin-left: 1000px;
   margin-bottom: 4px;
 }
 
@@ -244,23 +248,39 @@ img#cass4 {
 .work{
   max-width: 1000px;
   min-height: 350px;
+  margin: auto;
+  margin-left: 110px;
 }
 
 .work h1{
   font-size: 45px;
   line-height: 80px;
-  text-align: center;
+  text-align: left;
 }
 
-section.logos img{
-  height: 225px;
-  width: 225px;
+.logos{
+  max-width: 950px;
+  min-height: 350px;
+  margin: auto;
+}
+
+.logos img{
+  height: 200px;
+  width: 200px;
   text-align: center;
   margin: auto;
 }
 
-section.logos{
-  text-decoration: none;
+.logos h2{
+  color: #797979;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.logos h2{
+  color: #797979;
+  font-size: 25px;
+  line-height: 36px;
 }
 
 .contact-me {
@@ -271,7 +291,7 @@ section.logos{
     box-shadow: 10px 10px 10px -3px grey;
     text-align: center;
     margin-top: 81px;
-    max-width: 145px;
+    max-width: 150px;
     display: inline-block;
 }
 
@@ -279,6 +299,8 @@ section.logos{
   color: white;
   text-decoration: none;
   padding: 5px;
+  margin-top: 81px;
+  max-width: 150px;
 }
 
 /* hover link */
@@ -288,7 +310,8 @@ section.logos{
     border-radius: 5px;
     padding: 11px;
     text-align: center;
-    max-width: 100%;
+    margin-top: 81px;
+    max-width: 150px;
 }
 
 .contact-me a{

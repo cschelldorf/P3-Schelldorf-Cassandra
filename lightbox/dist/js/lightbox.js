@@ -1,3 +1,11 @@
+<script>
+  lightbox.option({
+    'resizeDuration': 200,
+    'wrapAround': true
+    'albumLabel': Image %1 of %2
+  })
+</script>
+
 /*!
  * Lightbox v2.11.3
  * by Lokesh Dhakar
