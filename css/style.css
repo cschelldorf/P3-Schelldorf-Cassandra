@@ -240,6 +240,62 @@ img#cass4 {
   padding: 5px;
 }
 
+/*--Work--*/
+.work{
+  max-width: 1000px;
+  min-height: 350px;
+}
+
+.work h1{
+  font-size: 45px;
+  line-height: 80px;
+  text-align: center;
+}
+
+section.logos img{
+  height: 225px;
+  width: 225px;
+  text-align: center;
+  margin: auto;
+}
+
+section.logos{
+  text-decoration: none;
+}
+
+.contact-me {
+    border-radius: 5px;
+    background: #F075AC;
+    padding: 18px;
+    margin-left: 792px;
+    box-shadow: 10px 10px 10px -3px grey;
+    text-align: center;
+    margin-top: 81px;
+    max-width: 145px;
+    display: inline-block;
+}
+
+.contact-me a{
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* hover link */
+.contact-me :hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    padding: 11px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.contact-me a{
+  text-decoration: none;
+  padding: 5px;
+}
+
 /*--Contact Form--*/
 form.contact_form{
   background: #F8B3D0;
