@@ -94,121 +94,16 @@ li a:hover {
   color: #F075AC;
 }
 
-/*-- Body CSS --*/
-.home {
-    margin: auto;
-    max-width: 100%;
-}
+/*--Pink border images--*/
 
-body{
-  background: white;
-}
-
-img.upperleft{
-  position: relative;
+img#upperleft{
   margin-left: 9px;
   margin-top: 63px;
-}
-
-img#cass-fullcolor{
-  float: left;
-  margin-top: 45px;
-}
-.container.welcome{
-  max-width: 1000px;
-  min-height: 350px;
-  margin: auto;
-  margin-left: 87px;
-}
-.container h1 {
-    padding-top: 50px;
-    padding-left: 10px;
-}
-
-.container.welcome p{
-  color: #797979;
-  padding-left: 10px;
-}
-
-.intro {
-  padding-left: 45px;
-  max-width: 100%;
-  float: left;
-  margin-top: 125px;
-}
-
-.intro h1 {
-    font-size: 45px;
-    line-height: 80px;
 }
 
 img#bottomright {
   margin-left: 1000px;
   margin-bottom: 4px;
-}
-
-.work-with-me {
-    border-radius: 5px;
-    background: #F075AC;
-    padding: 18px;
-    margin-left: 432px;
-    box-shadow: 10px 10px 10px -3px grey;
-    text-align: center;
-    margin-top: 81px;
-    max-width: 145px;
-    display: inline-block;
-}
-
-.work-with-me a{
-  color: white;
-  text-decoration: none;
-  padding: 5px;
-}
-
-/* hover link */
-.work-with-me :hover {
-    background-color: gray;
-    color: white;
-    border-radius: 5px;
-    padding: 11px;
-    text-align: center;
-    max-width: 100%;
-}
-
-.work-with-me a{
-  text-decoration: none;
-  padding: 5px;
-}
-
-/*--About Me--*/
-.about-me{
-  max-width: 1000px;
-  min-height: 350px;
-  margin: auto;
-}
-
-.get-to-know-me{
-  max-width: 800px;
-  min-height: 350px;
-  margin: auto;
-}
-
-.get-to-know-me h1 {
-  font-size: 45px;
-  padding-bottom: 25px;
-}
-
-.get-to-know-me p {
-    color: #797979;
-    font-size: 20px;
-    line-height: 36px;
-}
-
-img#cass4 {
-    float: left;
-    padding-right: 26px;
-    margin-top: 10px;
-    padding-bottom: 2px;
 }
 
 .see-work {
@@ -242,6 +137,75 @@ img#cass4 {
 .see-work a{
   text-decoration: none;
   padding: 5px;
+}
+
+/*-- Body CSS --*/
+.main {
+    margin: auto;
+    max-width: 100%;
+    max-width: 1200px;
+    min-height: 350px;
+}
+
+body{
+  background: white;
+}
+
+/*--Index CSS --*/
+img#cass-fullcolor{
+  float: left;
+  margin-top: 45px;
+}
+.container.welcome{
+  max-width: 950px;
+  min-height: 350px;
+  margin: auto;
+}
+.container h1 {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.container.welcome p{
+  color: #797979;
+  padding-left: 10px;
+}
+
+.intro {
+  padding-left: 45px;
+  max-width: 100%;
+  margin-top: 125px;
+}
+
+.intro h1 {
+    font-size: 45px;
+    line-height: 80px;
+}
+
+
+/*--About Me CSS--*/
+.get-to-know-me{
+  margin: auto;
+  max-width: 950px;
+  min-height: 350px;
+}
+
+.get-to-know-me h1 {
+  font-size: 45px;
+  padding-bottom: 25px;
+}
+
+.get-to-know-me p {
+    color: #797979;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+img#cass4 {
+    float: left;
+    padding-right: 26px;
+    margin-top: 10px;
+    padding-bottom: 2px;
 }
 
 /*--Work--*/
@@ -320,6 +284,28 @@ img#cass4 {
 }
 
 /*--Contact Form--*/
+
+.contact{
+  max-width: 1000px;
+  min-height: 350px;
+  margin: auto;
+}
+
+.container-contact {
+  margin-left: 113px;
+}
+
+.container-contact h1{
+  font-size: 45px;
+  padding-bottom: 25px;
+}
+
+.container-contact p{
+  color: #797979;
+  font-size: 20px;
+  line-height: 36px;
+}
+
 form.contact_form{
   background: #F8B3D0;
   padding: 20px;
