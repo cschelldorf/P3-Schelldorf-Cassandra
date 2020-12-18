@@ -133,10 +133,9 @@ img#bottomright {
   border-radius: 5px;
   background: #F075AC;
   padding: 18px;
-  margin-left: 677px;
   box-shadow: 10px 10px 10px -3px grey;
   text-align: center;
-  margin-top: -33px;
+  margin-top: 72px;
   max-width: 156px;
   display: inline-block;
   color: white;
@@ -177,8 +176,8 @@ img#cass-fullcolor{
   margin: auto;
 }
 .container h1 {
-    padding-top: 50px;
-    padding-left: 10px;
+  padding-top: 50px;
+  padding-left: 10px;
 }
 
 .container.welcome p{
@@ -247,7 +246,35 @@ img#cass4 {
 }
 
 
-/*--Work - Logos--*/
+/*--Work --*/
+.work-logos{
+  width: 30%;
+}
+
+.work-logos a{
+  border-radius: 5px;
+  background: #F075AC;
+  padding: 18px;
+  box-shadow: 10px 10px 10px -3px grey;
+  text-align: center;
+  max-width: 156px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-top: 114px;
+  margin-left: 813px;
+}
+/* hover link */
+.view-work a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 81px;
+    max-width: 150px;
+}
+
+/*-- Logos--*/
 .work{
   max-width: 1000px;
   min-height: 350px;
@@ -290,6 +317,7 @@ img#cass4 {
   font-size: 30px;
   line-height: 36px;
   text-align: left;
+  font-weight: bold;
 }
 
 .cross h3{
@@ -302,7 +330,7 @@ img#cass4 {
 .cross p{
   line-height: 42px;
   font-size: 20px;
-  color: #CCCCCC;
+  color: #3D3D3D;
   float: left;
 }
 
@@ -312,22 +340,15 @@ img#cass4 {
   margin: auto;
 }
 
-.dominance a {
-  display: inline-block;
-  text-align: center;    margin: 35px 15px;
+.digital-dom img {
+  float: left;
+  margin-top: 39px;
+  margin-right: 200px;
 }
 
-.dominance a span {
-    display: block;
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.dominance img{
-  height: 200px;
-  width: 200px;
-  text-align: center;
-  margin: auto;
+.digital-dom2 img {
+  margin-top: 91px;
+  margin-right: 52px;
 }
 
 .dominance h2{
@@ -336,6 +357,7 @@ img#cass4 {
   line-height: 36px;
   text-align: left;
   float: left;
+  padding-top: 20px;
 }
 
 .dominance h3{
@@ -346,11 +368,12 @@ img#cass4 {
   text-align: left;
 }
 
-.dominance p{
+.digital-dom-copy {
+  position: absolute;
+  margin-top: 70px;
   line-height: 42px;
   font-size: 20px;
-  color: #3D3D3D;
-  float: left;
+  color: #3D3D3D
 }
 
 .contact-me a {
@@ -363,7 +386,7 @@ img#cass4 {
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin-top: 81px;
+  margin-top: 149px;
   margin-left: 652px;
 }
 
