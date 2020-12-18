@@ -170,7 +170,7 @@ img#cass-fullcolor{
   margin-top: 45px;
   padding-right: 40px;
 }
-.container.welcome{
+.container-welcome{
   max-width: 950px;
   min-height: 350px;
   margin: auto;
@@ -180,7 +180,7 @@ img#cass-fullcolor{
   padding-left: 10px;
 }
 
-.container.welcome p{
+.container-welcome p{
   color: #797979;
   padding-left: 10px;
 }
@@ -248,79 +248,70 @@ img#cass4 {
 
 /*--Work --*/
 .section.work{
-  width: 30%;
+  max-width: 950px;
+  min-height: 350px;
+  margin: auto;
 }
 
-.work-logos a{
-  border-radius: 5px;
-  background: #F075AC;
-  padding: 18px;
-  box-shadow: 10px 10px 10px -3px grey;
-  text-align: center;
-  max-width: 156px;
+/*--Flip Card Styling--*/
+.flip-card {
+  width: 280px;
+  height: 280px;
   display: inline-block;
-  color: white;
-  text-decoration: none;
-  margin-top: 17px;
-  margin-left: 69px;
-}
-/* hover link */
-.work-logos a:hover {
-  background-color: gray;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 81px;
-  max-width: 150px;
+  background: transparent;
+  margin: 30px 0px;
 }
 
-.work-mag a{
-  border-radius: 5px;
-  background: #F075AC;
-  padding: 18px;
-  box-shadow: 10px 10px 10px -3px grey;
-  text-align: center;
-  max-width: 156px;
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  margin-top: 17px;
-  margin-left: 69px;
-}
-/* hover link */
-.work-mag a:hover {
-  background-color: gray;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 81px;
-  max-width: 150px;
+.flip-card-back h2{
+  padding: 0;
 }
 
-.work-press a{
-  border-radius: 5px;
-  background: #F075AC;
-  padding: 18px;
-  box-shadow: 10px 10px 10px -3px grey;
-  text-align: center;
-  max-width: 156px;
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  margin-top: 17px;
-  margin-left: 69px;
-}
-/* hover link */
-.work-press a:hover {
-  background-color: gray;
-  color: white;
-  border-radius: 5px;
-  text-align: center;
-  margin-top: 81px;
-  max-width: 150px;
+.flip-card img{
+  width: 100%;
 }
 
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform .6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 1px 2px 0 black;
+    overflow: hidden;
 }
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-back {
+    background: #45494e;
+    color: white;
+    transform: rotateY(180deg);
+    padding: 100px 10px 0;
+}
+
+.flip-card-back a {
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 1px;
+    color: black;
+    transition: .3s;
+    background: white;
+}
+
 /*-- Logos--*/
 .work{
   max-width: 1000px;
@@ -344,12 +335,6 @@ img#cass4 {
     display: inline-block;
     text-align: center;
     margin: 35px 15px;
-}
-
-.cross a span {
-    display: block;
-    max-width: 80%;
-    margin: 0 auto;
 }
 
 .cross img{
@@ -377,7 +362,7 @@ img#cass4 {
 .cross p{
   line-height: 42px;
   font-size: 20px;
-  color: #3D3D3D;
+  color: #797979;
   float: left;
 }
 
@@ -420,7 +405,11 @@ img#cass4 {
   margin-top: 70px;
   line-height: 42px;
   font-size: 20px;
-  color: #3D3D3D
+  color: #797979;
+}
+
+.digital-dom-copy p{
+  color: #797979;
 }
 
 .contact-me a {
@@ -480,7 +469,7 @@ img#cass4 {
 .cover p{
   line-height: 42px;
   font-size: 20px;
-  color: #CCCCCC;
+  color: #797979;
   float: left;
   margin-top: 45px;
 }
@@ -519,7 +508,7 @@ img#cass4 {
 .nicole p{
   line-height: 42px;
   font-size: 20px;
-  color: #CCCCCC;
+  color: #797979;
   float: left;
   margin-bottom: 42px;
 }
@@ -528,17 +517,9 @@ img#cass4 {
   max-width: 80%;
 }
 
-.elle img {
-    margin: auto;
-}
-
 .elle h2{
   font-size: 30px;
-  line-height: 40px;
-  text-align: left;
   position: absolute;
-  z-index: 5;
-  padding-bottom: 14px;
 }
 
 .elle h3{
@@ -546,12 +527,13 @@ img#cass4 {
   margin-top: 34px;
   position: relative;
   text-align: left;
+  padding-bottom: 10px;
 }
 
 .elle p{
   line-height: 42px;
   font-size: 20px;
-  color: #CCCCCC;
+  color: #797979;
   float: left;
   margin-bottom: 42px;
 }
