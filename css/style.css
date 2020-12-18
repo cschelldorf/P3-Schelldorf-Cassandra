@@ -294,7 +294,7 @@ img#cass4 {
 }
 
 .flip-card-back {
-    background: #45494e;
+    background: white;
     color: white;
     transform: rotateY(180deg);
     padding: 100px 10px 0;
