@@ -14,7 +14,7 @@ html{
 
 p{
   line-height: 42px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 html, body {
@@ -35,7 +35,7 @@ html, body {
 
 /*-- Navigation CSS --*/
 
-nav{
+.menu{
   font-size: 20px;
   position: fixed;
   padding: 5px;
@@ -45,18 +45,26 @@ nav{
   z-index: 10;
 }
 
-nav li{
+.menu li{
   padding-left: 44px;
   padding-right: 44px;
 }
 
-nav a{
+.menu a{
   text-decoration: none;
   padding: 5px;
 }
 
+/* dropdown*/
+nav.menu > ul > li{
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  vertical-align: top;
+}
+
 /* selected link */
-nav a:active {
+.menu a:active {
   color: #F075AC;
 }
 
@@ -65,16 +73,16 @@ nav a:active {
   color: #F075AC;
 }
 
-nav ul li{
+.menu ul li{
   display: inline;
 }
 
-nav li svg{
+.menu li svg{
   display: block !important;
   margin: 0 auto;
 }
 
-nav ul {
+.menu ul {
   display: flex;
   justify-content: center;
 }
@@ -93,7 +101,6 @@ li svg path{
 li a:hover {
   color: #F075AC;
 }
-
 /*--Pink border images--*/
 
 img#upperleft{
@@ -102,11 +109,11 @@ img#upperleft{
 }
 
 img#bottomright {
-  margin-left: 1000px;
+  margin-left: 70%;
   margin-bottom: 4px;
 }
 
-.see-work {
+.see-work a{
     border-radius: 5px;
     background: #F075AC;
     padding: 18px;
@@ -114,29 +121,20 @@ img#bottomright {
     box-shadow: 10px 10px 10px -3px grey;
     text-align: center;
     margin-top: 81px;
-    max-width: 145px;
+    max-width: 150px;
     display: inline-block;
-}
-
-.see-work a{
-  color: white;
-  text-decoration: none;
-  padding: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 /* hover link */
-.see-work :hover {
+.see-work a:hover {
     background-color: gray;
     color: white;
     border-radius: 5px;
-    padding: 11px;
     text-align: center;
-    max-width: 100%;
-}
-
-.see-work a{
-  text-decoration: none;
-  padding: 5px;
+    margin-top: 81px;
+    max-width: 150px;
 }
 
 /*-- Body CSS --*/
@@ -197,7 +195,7 @@ img#cass-fullcolor{
 
 .get-to-know-me p {
     color: #797979;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 36px;
 }
 
@@ -208,7 +206,7 @@ img#cass4 {
     padding-bottom: 2px;
 }
 
-/*--Work--*/
+/*--Work - Logos--*/
 .work{
   max-width: 1000px;
   min-height: 350px;
@@ -222,67 +220,226 @@ img#cass4 {
   text-align: left;
 }
 
-.logos{
+.cross{
   max-width: 950px;
   min-height: 350px;
   margin: auto;
 }
 
-.logos img{
+.cross a {
+    display: inline-block;
+    text-align: center;
+    margin: 35px 15px;
+}
+
+.cross a span {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.cross img{
   height: 200px;
   width: 200px;
   text-align: center;
   margin: auto;
 }
 
-.logos h2{
-  color: #797979;
+.cross h2{
+  color: #333333;
   font-size: 30px;
   line-height: 36px;
+  text-align: left;
 }
 
-.logos h2{
-  color: #797979;
-  font-size: 25px;
+.cross h3{
+  float: left;
+  margin-top: 34px;
+  position: relative;
+  text-align: left;
+}
+
+.cross p{
+  line-height: 42px;
+  font-size: 20px;
+  color: #CCCCCC;
+  float: left;
+}
+
+.dominance{
+  max-width: 950px;
+  min-height: 350px;
+  margin: auto;
+}
+
+.dominance a {
+  display: inline-block;
+  text-align: center;    margin: 35px 15px;
+}
+
+.dominance a span {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.dominance img{
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.dominance h2{
+  color: #333333;
+  font-size: 30px;
   line-height: 36px;
+  text-align: left;
+  float: left;
 }
 
-.contact-me {
-    border-radius: 5px;
-    background: #F075AC;
-    padding: 18px;
-    margin-left: 792px;
-    box-shadow: 10px 10px 10px -3px grey;
-    text-align: center;
-    margin-top: 81px;
-    max-width: 150px;
-    display: inline-block;
+.dominance h3{
+  color: #333333;
+  float: left;
+  margin-top: 34px;
+  position: relative;
+  text-align: left;
 }
 
-.contact-me a{
+.dominance p{
+  line-height: 42px;
+  font-size: 20px;
+  color: #3D3D3D;
+  float: left;
+}
+
+.contact-me a {
+  border-radius: 5px;
+  background: #F075AC;
+  padding: 18px;
+  box-shadow: 10px 10px 10px -3px grey;
+  text-align: center;
+  max-width: 150px;
+  display: inline-block;
   color: white;
   text-decoration: none;
-  padding: 5px;
   margin-top: 81px;
-  max-width: 150px;
+  margin-left: 792px;
 }
 
 /* hover link */
-.contact-me :hover {
+.contact-me a:hover {
     background-color: gray;
     color: white;
     border-radius: 5px;
-    padding: 11px;
     text-align: center;
     margin-top: 81px;
     max-width: 150px;
 }
 
-.contact-me a{
-  text-decoration: none;
-  padding: 5px;
+/*--Magazine CSS */
+.cover img {
+    width: 40%;
+    position: relative;
+    float: left;
+    padding: 9px;
 }
 
+.cover h1{
+  font-size: 45px;
+  line-height: 80px;
+  text-align: left;
+  padding-bottom: 23px;
+}
+
+.cover h2{
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 14px;
+}
+
+.cover h3{
+  float: left;
+  margin-top: 34px;
+  position: relative;
+  text-align: left;
+}
+
+.cover p{
+  line-height: 42px;
+  font-size: 20px;
+  color: #CCCCCC;
+  float: left;
+}
+
+/*--Press CSS--*/
+.nicole img {
+  width: 30%;
+  position: relative;
+  float: left;
+  padding: 9px;
+}
+
+.work h1{
+  font-size: 45px;
+  line-height: 80px;
+  text-align: left;
+  padding-bottom: 23px;
+}
+
+.nicole h2{
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 14px;
+}
+
+.nicole h3{
+  float: left;
+  margin-top: 34px;
+  position: relative;
+  text-align: left;
+}
+
+.nicole p{
+  line-height: 42px;
+  font-size: 20px;
+  color: #CCCCCC;
+  float: left;
+}
+
+
+.elle img {
+    margin: auto;
+}
+
+.elle h2{
+  font-size: 30px;
+  line-height: 40px;
+  text-align: left;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 14px;
+}
+
+.elle h3{
+  float: left;
+  margin-top: 34px;
+  position: relative;
+  text-align: left;
+}
+
+.elle p{
+  line-height: 42px;
+  font-size: 20px;
+  color: #CCCCCC;
+  float: left;
+}
 /*--Contact Form--*/
 
 .contact{
@@ -302,7 +459,7 @@ img#cass4 {
 
 .container-contact p{
   color: #797979;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 36px;
 }
 
@@ -313,7 +470,7 @@ form.contact_form{
   border-radius: 7px;
   color: white;
   font-family: merriweather-sans;
-  font-size: 12px;
+  font-size: 20px;
   margin: 20px auto;
   text-align: left;
   overflow: hidden;
@@ -374,7 +531,7 @@ input[type="submit"] {
 footer{
   padding: 10px 25px;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   color: #333333;
   border-top: 1px solid #e7e7e7;
   width: 100%;
