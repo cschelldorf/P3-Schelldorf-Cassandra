@@ -247,7 +247,7 @@ img#cass4 {
 
 
 /*--Work --*/
-.work-logos{
+.section.work{
   width: 30%;
 }
 
@@ -261,19 +261,66 @@ img#cass4 {
   display: inline-block;
   color: white;
   text-decoration: none;
-  margin-top: 114px;
-  margin-left: 813px;
+  margin-top: 17px;
+  margin-left: 69px;
 }
 /* hover link */
-.view-work a:hover {
-    background-color: gray;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-    margin-top: 81px;
-    max-width: 150px;
+.work-logos a:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 81px;
+  max-width: 150px;
 }
 
+.work-mag a{
+  border-radius: 5px;
+  background: #F075AC;
+  padding: 18px;
+  box-shadow: 10px 10px 10px -3px grey;
+  text-align: center;
+  max-width: 156px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-top: 17px;
+  margin-left: 69px;
+}
+/* hover link */
+.work-mag a:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 81px;
+  max-width: 150px;
+}
+
+.work-press a{
+  border-radius: 5px;
+  background: #F075AC;
+  padding: 18px;
+  box-shadow: 10px 10px 10px -3px grey;
+  text-align: center;
+  max-width: 156px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-top: 17px;
+  margin-left: 69px;
+}
+/* hover link */
+.work-press a:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 81px;
+  max-width: 150px;
+}
+
+}
 /*-- Logos--*/
 .work{
   max-width: 1000px;
