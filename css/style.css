@@ -637,7 +637,7 @@ input[type="submit"] {
             jump 2s 3.2s ease infinite;
 }
 
-span.cass-glasses{
+.cass-glasses{
   margin-top: 150px;
   margin-left: 55px;
   position: relative;
