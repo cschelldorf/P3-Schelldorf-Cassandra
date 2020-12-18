@@ -96,6 +96,22 @@ li svg path{
   fill: #F8B3D0;
 }
 
+ul.sub-menu{
+  display: none;
+}
+
+ul.sub-menu li{
+  display: block;
+}
+
+nav.menu li:hover .sub-menu{
+  display: block;
+  position: absolute;
+  background: white;
+  text-align: left;
+  font-size: 14px;
+}
+
 
 /* Change the link color to #F075AC (dark pink) on hover */
 li a:hover {
@@ -114,17 +130,17 @@ img#bottomright {
 }
 
 .see-work a{
-    border-radius: 5px;
-    background: #F075AC;
-    padding: 18px;
-    margin-left: 792px;
-    box-shadow: 10px 10px 10px -3px grey;
-    text-align: center;
-    margin-top: 81px;
-    max-width: 150px;
-    display: inline-block;
-    color: white;
-    text-decoration: none;
+  border-radius: 5px;
+  background: #F075AC;
+  padding: 18px;
+  margin-left: 677px;
+  box-shadow: 10px 10px 10px -3px grey;
+  text-align: center;
+  margin-top: -33px;
+  max-width: 156px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
 }
 
 /* hover link */
@@ -153,6 +169,7 @@ body{
 img#cass-fullcolor{
   float: left;
   margin-top: 45px;
+  padding-right: 40px;
 }
 .container.welcome{
   max-width: 950px;
@@ -206,12 +223,35 @@ img#cass4 {
     padding-bottom: 2px;
 }
 
+.view-work a{
+  border-radius: 5px;
+  background: #F075AC;
+  padding: 18px;
+  box-shadow: 10px 10px 10px -3px grey;
+  text-align: center;
+  max-width: 156px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  margin-top: 114px;
+  margin-left: 813px;
+}
+/* hover link */
+.view-work a:hover {
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 81px;
+    max-width: 150px;
+}
+
+
 /*--Work - Logos--*/
 .work{
   max-width: 1000px;
   min-height: 350px;
   margin: auto;
-  margin-left: 110px;
 }
 
 .work h1{
@@ -324,7 +364,7 @@ img#cass4 {
   color: white;
   text-decoration: none;
   margin-top: 81px;
-  margin-left: 792px;
+  margin-left: 652px;
 }
 
 /* hover link */
@@ -361,11 +401,10 @@ img#cass4 {
   padding-bottom: 14px;
 }
 
-.corelle-copy h3{
+.cover h3{
   float: left;
-  margin-top: 34px;
-  position: relative;
-  text-align: left;
+  margin-top: 552px;
+  position: absolute;
 }
 
 .cover p{
@@ -373,6 +412,7 @@ img#cass4 {
   font-size: 20px;
   color: #CCCCCC;
   float: left;
+  margin-top: 45px;
 }
 
 /*--Press CSS--*/
@@ -411,8 +451,12 @@ img#cass4 {
   font-size: 20px;
   color: #CCCCCC;
   float: left;
+  margin-bottom: 42px;
 }
 
+.elle{
+  max-width: 80%;
+}
 
 .elle img {
     margin: auto;
@@ -422,7 +466,7 @@ img#cass4 {
   font-size: 30px;
   line-height: 40px;
   text-align: left;
-  position: relative;
+  position: absolute;
   z-index: 5;
   padding-bottom: 14px;
 }
@@ -439,7 +483,9 @@ img#cass4 {
   font-size: 20px;
   color: #CCCCCC;
   float: left;
+  margin-bottom: 42px;
 }
+
 /*--Contact Form--*/
 
 .contact{
@@ -454,13 +500,17 @@ img#cass4 {
 
 .container-contact h1{
   font-size: 45px;
-  padding-bottom: 25px;
+  line-height: 80px;
+  text-align: left;
+  padding-bottom: 23px;
 }
 
 .container-contact p{
-  color: #797979;
-  font-size: 16px;
-  line-height: 36px;
+  line-height: 42px;
+  font-size: 20px;
+  color: #3D3D3D;
+  float: left;
+  margin-bottom: 42px;
 }
 
 form.contact_form{
@@ -507,7 +557,7 @@ label{
 }
 
 select#service {
-    color: #797979;
+    color: #3D3D3D;
 }
 
 .comments.input-section {
