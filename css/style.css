@@ -509,7 +509,6 @@ img#cass4 {
   line-height: 42px;
   font-size: 20px;
   color: #3D3D3D;
-  float: left;
   margin-bottom: 42px;
 }
 
@@ -574,6 +573,71 @@ input[type="submit"] {
     border-radius: 5px;
     padding: 5px;
     float: right;
+}
+
+/*--Extra/Animation--*/
+.cass{
+  margin-top: 55px;
+  margin-left: 55px;
+  position: absolute;
+  top: -20px;
+  left: 0px;
+  animation: drive 7s alternate infinite linear,
+            jump 2s 3.2s ease infinite;
+}
+
+span.cass-glasses{
+  margin-top: 150px;
+  margin-left: 55px;
+  position: relative;
+  nimation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+}
+/*Animation Controls--*/
+@keyframes drive{
+  from{
+    transform: translatex(-200px);
+  }
+  to{
+    transform: translatex(1000px);
+  }
+}
+
+@keyframes jump{
+  0%{
+    top: -40%;
+  }
+  50%{
+    top: -100px;
+  }
+  100%{
+    top: -40px;
+  }
+}
+
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
 }
 
 /*--Footer--*/
