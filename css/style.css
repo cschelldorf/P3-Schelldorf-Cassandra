@@ -298,6 +298,7 @@ img#cass4 {
     color: white;
     transform: rotateY(180deg);
     padding: 100px 10px 0;
+    max-height: 280px;
 }
 
 .flip-card-back a {
