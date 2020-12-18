@@ -63,13 +63,21 @@
 </style>
 
 <header>
-  <nav>
+  <nav class="menu">
     <ul>
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Home</a></i></li>
       <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="work.html">Work</a></li>
-      <li><a href="contact.html">Contact Me</a></li>
+      <li><a class="work" href="#">Work</a>
+        <i class="fa fa-caret-down"></i>
+        <ul class="sub-menu">
+          <li class="menu-item"><a href="logos.html">Logos</a></li>
+          <li class="menu-item"><a href="mag.html">Magazine Covers</a></li>
+          <li class="menu-item"><a href="press.html">Press Kits</a></li>
+        </ul>
+      </li>
+      <li><a class="active" href="contact.html">Contact Me</a><i class="fas fa-caret-up"></i></li>
     </ul>
+  </nav>
 </header>
 
 <div class="container">
@@ -80,12 +88,12 @@
 
 
 <footer>
-  <p>Let's Connect:</p>
-  <container class="social">
-    <a href="mailto:cassie7@ufl.edu" target=_blank> <img src="images/envelope-regular.svg" alt="Envelope" title="Envelope"
-    <a href="https://www.facebook.com/caschelldorf/" target=_blank ><img src="images/facebook-square-brands.svg" alt="Facebook" title="Facebook"/>
-    <a href="https://www.instagram.com/withwingsandroots/?hl=en" target=_blank> <img src="images/instagram-brands.svg" alt="Instagram" title="Instagram"/>
-    <a href="https://twitter.com/cschelldorf" target_blank><img src="images/twitter-brands.svg" alt="Twitter" title="Twitter"/>
-    <a href="https://www.linkedin.com/in/cassandraanneschelldorf/" target_blank><img src="images/linkedin-brands.svg" alt="LinkedIn" title="LinkedIn"/>
-  </container>
+  <div class="social">
+    <h3>Let's Connect:</h3>
+    <a href="mailto:cassie7@ufl.edu" target=_blank><i class="far fa-envelope"></i></a>
+    <a href="https://www.facebook.com/caschelldorf/" target=_blank><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/withwingsandroots/?hl=en" target=_blank><i class="fab fa-instagram"></i></a>
+    <a href="https://twitter.com/cschelldorf" target=_blank><i class="fab fa-twitter"></i></a>
+    <a href="https://www.linkedin.com/in/cassandraanneschelldorf/" target=_blank><i class="fab fa-linkedin"></i></a>
+  </div>
 </footer>
